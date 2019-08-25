@@ -17,7 +17,7 @@ class SaludoServiceTest extends TestCase
                    ->willReturn('Ana');
 
         $obj=new SaludoService($mockPerSer); 
-        $this->assertEquals('Hola Ana', $obj->saludar());
+        $this->assertEquals('Hola Ana 2', $obj->saludar());
     }
 }
 

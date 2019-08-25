@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello UsuarioController!{% endblock %}
+
+{% block body %}
+
+<h1>{{ usuario.nombre }}</h1>
+
+<a href='/usuario/{{usuario.id+1}}'>Pulsa para ver el siguiente</a>
+
+{% endblock %}
